@@ -3,9 +3,190 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Food Mart</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Project 2</h1>
+    <div class="navbar">
+      <img class="logo" src="images/logo.png" alt="logo" />
+
+      <div id="srchsvg" class="section">
+        <div id="search">
+          <select id="select">
+            <option>All Categories</option>
+          </select>
+          <input
+            type="text"
+            id="input"
+            placeholder="Search for more then 20,000 products "
+          />
+        </div>
+        <img
+          class="svg search-icon"
+          src="images/search-svgrepo-com.svg"
+          alt="search"
+        />
+      </div>
+
+      <div class="section support">
+        <p>For Support? <br /><strong>+980-123456789</strong></p>
+      </div>
+
+      <div class="section icons">
+        <img class="svg" src="images/user-rounded-svgrepo-com.svg" alt="User" />
+        <img class="svg" src="images/heart-svgrepo-com.svg" alt="Wishlist" />
+      </div>
+
+      <div class="section cart">
+        <select>
+          <option>Your Cart</option>
+        </select>
+        <p>₹1290</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="sl">
+        <select>
+          <option>Shop by Departments</option>
+        </select>
+      </div>
+      <div class="items">
+        <ul>
+          <li>Women</li>
+          <li>Men</li>
+          <li>Kids</li>
+          <li>Accessories</li>
+          <li>
+            <select>
+              <option>Pages</option>
+            </select>
+          </li>
+          <li>Brand</li>
+          <li>Sale</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Banner -->
+
+    <div class="main">
+      <div class="img1"></div>
+      <div class="img2">
+        <div class="i1"></div>
+        <div class="i2"></div>
+      </div>
+    </div>
+
+    <div class="cat">
+      <h3>Category</h3>
+      <p id="cg">
+        View All Categories
+        <button id="btn">
+          <img
+            class="arr"
+            src="images/chocolat/arrow-prev-small-svgrepo-com.svg"
+            alt=""
+          />
+        </button>
+        <button>
+          <img
+            class="arr"
+            src="images/chocolat/arrow-next-small-svgrepo-com.svg"
+            alt=""
+          />
+        </button>
+      </p>
+      <div class="items">
+        <div>
+          <img src="images/icon-vegetables-broccoli.png" alt="" />
+          <p>Fruits & Veges</p>
+        </div>
+        <div>
+          <img src="images/icon-bread-baguette.png" alt="" />
+          <p>Breads & Sweets</p>
+        </div>
+        <div>
+          <img src="images/icon-soft-drinks-bottle.png" alt="" />
+          <p>Fruits & Veges</p>
+        </div>
+        <div>
+          <img src="images/icon-wine-glass-bottle.png" alt="" />
+          <p>Fruits & Veges</p>
+        </div>
+        <div>
+          <img src="images/icon-animal-products-drumsticks.png" alt="" />
+          <p>Fruits & Veges</p>
+        </div>
+        <div>
+          <img src="images/icon-bread-herb-flour.png" alt="" />
+          <p>Fruits & Veges</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="brands">
+      <div id="brnd">
+        <h3>Newly Arrived Brands</h3>
+        <p>
+          View All Categories
+          <button style="margin-left: 15px">
+            <img
+              class="arr"
+              src="images/chocolat/arrow-prev-small-svgrepo-com.svg"
+              alt=""
+            />
+          </button>
+          <button>
+            <img
+              class="arr"
+              src="images/chocolat/arrow-next-small-svgrepo-com.svg"
+              alt=""
+            />
+          </button>
+        </p>
+      </div>
+    </div>
+    <div class="new">
+      <div>
+        <img src="images/product-thumb-11.jpg" alt="" />
+        <p>
+          Amber Jar <br />
+          Honey best nectar you wish to get
+        </p>
+      </div>
+      <div>
+        <img src="images/product-thumb-11.jpg" alt="" />
+        <p>
+          Amber Jar <br />
+          Honey best nectar you wish to get
+        </p>
+      </div>
+      <div>
+        <img src="images/product-thumb-11.jpg" alt="" />
+        <p>
+          Amber Jar <br />
+          Honey best nectar you wish to get
+        </p>
+      </div>
+      <div>
+        <img src="images/product-thumb-11.jpg" alt="" />
+        <p>
+          Amber Jar <br />
+          Honey best nectar you wish to get
+        </p>
+      </div>
+    </div>
+
+    <div class="trend">
+      <div><h3>Trending Products</h3></div>
+      <div>
+        <ul>
+          <li>ALL</li>
+          <li>FRUITS & VEGES</li>
+          <li>JUICES</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

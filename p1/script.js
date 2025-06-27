@@ -22,21 +22,25 @@ const showUsers = () => {
 
 const loginForm = () => {
   const str = `
-        <div class="form">
-            <h3>Login Form</h3>
-            <p class="error-msg" id="error-msg"></p>
-            <input type="email" placeholder="Email" id="txtEmail" />
-            <input type="password" placeholder="Password" id="txtPassword"/>
-            <button type="submit" onclick="validateUser()">Submit</button>
-        </div>
-        <p>
-            Don't have an account?
-            <span onclick="registerForm()" class="link">Create Account</span>
-        </p>
+      <div class="flex-container">
+        <section>
+          <div class="form">
+              <h3>Login Form</h3>
+              <p class="error-msg" id="error-msg"></p>
+              <input type="email" placeholder="Email" id="txtEmail" />
+              <input type="password" placeholder="Password" id="txtPassword"/>
+              <button type="submit" onclick="validateUser()">Submit</button>
+          </div>
+          <p>
+              Don't have an account?
+              <span onclick="registerForm()" class="link">Create Account</span>
+          </p>
+        </section>
 
         <div class="user-list">
           ${showUsers()}
         </div>
+      </div>
         
     `;
 
