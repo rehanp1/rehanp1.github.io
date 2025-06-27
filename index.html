@@ -3,29 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MERN 16-06-25</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rehan</h1>
-    <a href="/portfolio/index.html"> <h3>My Portfolio</h3></a>
+    <header class="header">
+      <h3>Rehan</h3>
 
-    <h3>My Folders</h3>
-    <ol>
-      <a href="/html/index.html" class=""><li>HTML</li></a>
-      <a href="/css/style.css" class=""><li>CSS</li></a>
-      <a href="/javascript/index.html" class=""><li>JavaScript</li></a>
-    </ol>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="intro">
+        <h2>MERN Stack Developer</h2>
+        <p>
+          This is a sample text and can be replaces. This is a sample text can
+          be replaced. This is a sample text can be replaced. This is a sample
+          text can be replaced.
+        </p>
+        <button>View My Projects</button>
+      </section>
+      <section>
+        <img
+          class="profile-img"
+          src="https://picsum.photos/id/1/600/300"
+          alt="profile-img"
+        />
+      </section>
+    </main>
 
-    <h3>My Projects</h3>
-    <ol>
-      <a href="/p1/index.html" class=""><li>Project 1</li></a>
-      <a href="/p2/index.html" class=""><li>Project 2</li></a>
-    </ol>
+    <div class="services">
+      <h3>Services</h3>
 
-    <h3>My Assignments</h3>
-    <ol>
-      <a href="/a1/index.html" class=""><li>Assignments 1</li></a>
-      <a href="/a2/index.html" class=""><li>Assignments 2</li></a>
-    </ol>
+      <div class="cards-container">
+        <section>
+          <h2>Fontend Development</h2>
+          <p>
+            Some description about the services. Some description about the
+            services.
+          </p>
+        </section>
+        <section>
+          <h2>Backend Development</h2>
+          <p>
+            Some description about the services. Some description about the
+            services.
+          </p>
+        </section>
+        <section>
+          <h2>Mobile App Development</h2>
+          <p>
+            Some description about the services. Some description about the
+            services.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <p>Made by Rehan</p>
+    </footer>
   </body>
 </html>
